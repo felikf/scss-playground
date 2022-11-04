@@ -1,0 +1,14 @@
+//// old
+//
+//@import "abstracts/variables";
+//// the import above make the variables accessible withou importing the variables into card
+//@import "components/card";
+//
+//div {
+//  color: red;
+//}
+
+@import "components/card";
+@import "components/other";
+
+

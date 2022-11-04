@@ -1,0 +1,8 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/corner" as *;
+
+div {
+  width: v.$width;
+  height: v.$height;
+  border-radius: $radius;
+}

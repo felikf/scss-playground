@@ -1,0 +1,6 @@
+@use "../abstracts" as a;
+
+.card {
+  width: a.$width;
+  height: a.$height;
+}
